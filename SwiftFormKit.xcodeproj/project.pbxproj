@@ -10,6 +10,7 @@
 		16FEBA002CE5551000F8C75E /* SwiftFormKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FEB9F72CE5551000F8C75E /* SwiftFormKit.framework */; };
 		16FEBA052CE5551000F8C75E /* SwiftFormKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */; };
 		16FEBA062CE5551000F8C75E /* SwiftFormKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFormKit.h; sourceTree = "<group>"; };
 		16FEB9FF2CE5551000F8C75E /* SwiftFormKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFormKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFormKitTests.swift; sourceTree = "<group>"; };
+		16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */,
+				16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */,
 			);
 			path = SwiftFormKit;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				TargetAttributes = {
 					16FEB9F62CE5551000F8C75E = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 					16FEB9FE2CE5551000F8C75E = {
 						CreatedOnToolsVersion = 15.2;
@@ -191,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +346,7 @@
 		16FEBA0A2CE5551000F8C75E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -364,6 +370,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -372,6 +379,7 @@
 		16FEBA0B2CE5551000F8C75E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -403,6 +411,7 @@
 		16FEBA0D2CE5551000F8C75E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D85QWSUNYA;
@@ -419,6 +428,7 @@
 		16FEBA0E2CE5551000F8C75E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D85QWSUNYA;
