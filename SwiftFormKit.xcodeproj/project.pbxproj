@@ -11,6 +11,19 @@
 		16FEBA052CE5551000F8C75E /* SwiftFormKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */; };
 		16FEBA062CE5551000F8C75E /* SwiftFormKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */; };
+		16FEBA122CE565AD00F8C75E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA112CE565AD00F8C75E /* Validator.swift */; };
+		16FEBA142CE56B7B00F8C75E /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */; };
+		16FEBA162CE56BDE00F8C75E /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */; };
+		16FEBA192CE56CCB00F8C75E /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */; };
+		16FEBA1B2CE5785700F8C75E /* DropdownValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */; };
+		16FEBA1D2CE578CF00F8C75E /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1C2CE578CF00F8C75E /* Form.swift */; };
+		16FEBA202CE584C400F8C75E /* FieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */; };
+		16FEBA222CE8532500F8C75E /* FormFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA212CE8532500F8C75E /* FormFieldCell.swift */; };
+		16FEBA242CE856B800F8C75E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA232CE856B800F8C75E /* TextFieldView.swift */; };
+		16FEBA262CE856C900F8C75E /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA252CE856C900F8C75E /* DatePickerView.swift */; };
+		16FEBA282CE856DC00F8C75E /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA272CE856DC00F8C75E /* DropdownView.swift */; };
+		16FEBA2A2CE856F600F8C75E /* MultiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA292CE856F600F8C75E /* MultiSelectView.swift */; };
+		16FEBA2C2CE8584000F8C75E /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA2B2CE8584000F8C75E /* FormViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +42,19 @@
 		16FEB9FF2CE5551000F8C75E /* SwiftFormKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFormKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFormKitTests.swift; sourceTree = "<group>"; };
 		16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldType.swift; sourceTree = "<group>"; };
+		16FEBA112CE565AD00F8C75E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownValidator.swift; sourceTree = "<group>"; };
+		16FEBA1C2CE578CF00F8C75E /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
+		16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStyle.swift; sourceTree = "<group>"; };
+		16FEBA212CE8532500F8C75E /* FormFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldCell.swift; sourceTree = "<group>"; };
+		16FEBA232CE856B800F8C75E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		16FEBA252CE856C900F8C75E /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
+		16FEBA272CE856DC00F8C75E /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
+		16FEBA292CE856F600F8C75E /* MultiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectView.swift; sourceTree = "<group>"; };
+		16FEBA2B2CE8584000F8C75E /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +97,11 @@
 		16FEB9F92CE5551000F8C75E /* SwiftFormKit */ = {
 			isa = PBXGroup;
 			children = (
+				16FEBA1E2CE584A800F8C75E /* views */,
+				16FEBA172CE56C3900F8C75E /* validators */,
 				16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */,
 				16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */,
+				16FEBA1C2CE578CF00F8C75E /* Form.swift */,
 			);
 			path = SwiftFormKit;
 			sourceTree = "<group>";
@@ -83,6 +112,32 @@
 				16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */,
 			);
 			path = SwiftFormKitTests;
+			sourceTree = "<group>";
+		};
+		16FEBA172CE56C3900F8C75E /* validators */ = {
+			isa = PBXGroup;
+			children = (
+				16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */,
+				16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */,
+				16FEBA112CE565AD00F8C75E /* Validator.swift */,
+				16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */,
+				16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */,
+			);
+			path = validators;
+			sourceTree = "<group>";
+		};
+		16FEBA1E2CE584A800F8C75E /* views */ = {
+			isa = PBXGroup;
+			children = (
+				16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */,
+				16FEBA212CE8532500F8C75E /* FormFieldCell.swift */,
+				16FEBA232CE856B800F8C75E /* TextFieldView.swift */,
+				16FEBA252CE856C900F8C75E /* DatePickerView.swift */,
+				16FEBA272CE856DC00F8C75E /* DropdownView.swift */,
+				16FEBA292CE856F600F8C75E /* MultiSelectView.swift */,
+				16FEBA2B2CE8584000F8C75E /* FormViewController.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +250,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16FEBA202CE584C400F8C75E /* FieldStyle.swift in Sources */,
+				16FEBA122CE565AD00F8C75E /* Validator.swift in Sources */,
+				16FEBA2C2CE8584000F8C75E /* FormViewController.swift in Sources */,
+				16FEBA1B2CE5785700F8C75E /* DropdownValidator.swift in Sources */,
+				16FEBA262CE856C900F8C75E /* DatePickerView.swift in Sources */,
 				16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */,
+				16FEBA282CE856DC00F8C75E /* DropdownView.swift in Sources */,
+				16FEBA192CE56CCB00F8C75E /* PasswordValidator.swift in Sources */,
+				16FEBA142CE56B7B00F8C75E /* EmailValidator.swift in Sources */,
+				16FEBA242CE856B800F8C75E /* TextFieldView.swift in Sources */,
+				16FEBA2A2CE856F600F8C75E /* MultiSelectView.swift in Sources */,
+				16FEBA1D2CE578CF00F8C75E /* Form.swift in Sources */,
+				16FEBA162CE56BDE00F8C75E /* PhoneValidator.swift in Sources */,
+				16FEBA222CE8532500F8C75E /* FormFieldCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
