@@ -47,26 +47,9 @@ Replace **YOUR_TARGET_NAME** and then, in the Podfile directory, type:
 ```
 import SwiftFormKit
 
-struct MyFormView: View {
-    @State private var formData: [String: Any] = [:]
-    @State private var isFormValid = false
-    
-    var body: some View {
-        SwiftForm(
-            fields: [
-                TextFieldItem(id: "name", label: "Name", placeholder: "Enter your full name", validator: .name),
-                TextFieldItem(id: "email", label: "Email", placeholder: "Enter your email", validator: .email),
-                TextFieldItem(id: "phone", label: "Phone", placeholder: "Enter your phone number", validator: .phone),
-                ToggleItem(id: "terms", label: "Agree to Terms"),
-            ],
-            onSubmit: { data, isValid in
-                formData = data
-                isFormValid = isValid
-                if isValid {
-                    print("Form Submitted: \(data)")
-                }
-            }
-        )
-    }
-}
+ 
 ```
+
+## Screenshot Simulator
+<img width="375" alt="image" src="https://github.com/user-attachments/assets/39d52ca6-9d9a-45c3-a58a-e5301cf1af49">
+
