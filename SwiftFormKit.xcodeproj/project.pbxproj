@@ -10,20 +10,24 @@
 		16FEBA002CE5551000F8C75E /* SwiftFormKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16FEB9F72CE5551000F8C75E /* SwiftFormKit.framework */; };
 		16FEBA052CE5551000F8C75E /* SwiftFormKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */; };
 		16FEBA062CE5551000F8C75E /* SwiftFormKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */; };
-		16FEBA122CE565AD00F8C75E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA112CE565AD00F8C75E /* Validator.swift */; };
-		16FEBA142CE56B7B00F8C75E /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */; };
-		16FEBA162CE56BDE00F8C75E /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */; };
-		16FEBA192CE56CCB00F8C75E /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */; };
-		16FEBA1B2CE5785700F8C75E /* DropdownValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */; };
-		16FEBA1D2CE578CF00F8C75E /* Form.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1C2CE578CF00F8C75E /* Form.swift */; };
-		16FEBA202CE584C400F8C75E /* FieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */; };
-		16FEBA222CE8532500F8C75E /* FormFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA212CE8532500F8C75E /* FormFieldCell.swift */; };
-		16FEBA242CE856B800F8C75E /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA232CE856B800F8C75E /* TextFieldView.swift */; };
-		16FEBA262CE856C900F8C75E /* DatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA252CE856C900F8C75E /* DatePickerView.swift */; };
-		16FEBA282CE856DC00F8C75E /* DropdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA272CE856DC00F8C75E /* DropdownView.swift */; };
-		16FEBA2A2CE856F600F8C75E /* MultiSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA292CE856F600F8C75E /* MultiSelectView.swift */; };
-		16FEBA2C2CE8584000F8C75E /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA2B2CE8584000F8C75E /* FormViewController.swift */; };
+		16FEBA7C2CEA373300F8C75E /* FormFieldProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA7B2CEA373300F8C75E /* FormFieldProtocol.swift */; };
+		16FEBA7E2CEA375200F8C75E /* TextInputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA7D2CEA375200F8C75E /* TextInputField.swift */; };
+		16FEBA802CEA379500F8C75E /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA7F2CEA379500F8C75E /* TextInputView.swift */; };
+		16FEBA822CEA37E700F8C75E /* FormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA812CEA37E700F8C75E /* FormModel.swift */; };
+		16FEBA842CEA380D00F8C75E /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA832CEA380D00F8C75E /* FormView.swift */; };
+		16FEBA872CEA414700F8C75E /* DropdownField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA862CEA414700F8C75E /* DropdownField.swift */; };
+		16FEBA892CEA416200F8C75E /* SwitchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA882CEA416200F8C75E /* SwitchField.swift */; };
+		16FEBA8B2CEA41C200F8C75E /* DropdownFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA8A2CEA41C200F8C75E /* DropdownFieldView.swift */; };
+		16FEBA8D2CEA41E500F8C75E /* SwitchFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA8C2CEA41E500F8C75E /* SwitchFieldView.swift */; };
+		16FEBA902CEA441800F8C75E /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA8F2CEA441800F8C75E /* Validator.swift */; };
+		16FEBA922CEA443D00F8C75E /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA912CEA443D00F8C75E /* EmailValidator.swift */; };
+		16FEBA942CEA449300F8C75E /* PasswordValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA932CEA449300F8C75E /* PasswordValidator.swift */; };
+		16FEBA962CEA455700F8C75E /* PhoneValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA952CEA455700F8C75E /* PhoneValidator.swift */; };
+		16FEBA982CEA502000F8C75E /* DateField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA972CEA502000F8C75E /* DateField.swift */; };
+		16FEBA9A2CEA504C00F8C75E /* TextAreaField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA992CEA504C00F8C75E /* TextAreaField.swift */; };
+		16FEBA9C2CEA507000F8C75E /* DateFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA9B2CEA507000F8C75E /* DateFieldView.swift */; };
+		16FEBA9E2CEA50A000F8C75E /* TextAreaFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBA9D2CEA50A000F8C75E /* TextAreaFieldView.swift */; };
+		16FEBAA42CEA619D00F8C75E /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEBAA32CEA619D00F8C75E /* FormData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,20 +45,24 @@
 		16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftFormKit.h; sourceTree = "<group>"; };
 		16FEB9FF2CE5551000F8C75E /* SwiftFormKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFormKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FEBA042CE5551000F8C75E /* SwiftFormKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFormKitTests.swift; sourceTree = "<group>"; };
-		16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldType.swift; sourceTree = "<group>"; };
-		16FEBA112CE565AD00F8C75E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
-		16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
-		16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
-		16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
-		16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownValidator.swift; sourceTree = "<group>"; };
-		16FEBA1C2CE578CF00F8C75E /* Form.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form.swift; sourceTree = "<group>"; };
-		16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldStyle.swift; sourceTree = "<group>"; };
-		16FEBA212CE8532500F8C75E /* FormFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldCell.swift; sourceTree = "<group>"; };
-		16FEBA232CE856B800F8C75E /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
-		16FEBA252CE856C900F8C75E /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
-		16FEBA272CE856DC00F8C75E /* DropdownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownView.swift; sourceTree = "<group>"; };
-		16FEBA292CE856F600F8C75E /* MultiSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectView.swift; sourceTree = "<group>"; };
-		16FEBA2B2CE8584000F8C75E /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		16FEBA7B2CEA373300F8C75E /* FormFieldProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldProtocol.swift; sourceTree = "<group>"; };
+		16FEBA7D2CEA375200F8C75E /* TextInputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputField.swift; sourceTree = "<group>"; };
+		16FEBA7F2CEA379500F8C75E /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		16FEBA812CEA37E700F8C75E /* FormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormModel.swift; sourceTree = "<group>"; };
+		16FEBA832CEA380D00F8C75E /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
+		16FEBA862CEA414700F8C75E /* DropdownField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownField.swift; sourceTree = "<group>"; };
+		16FEBA882CEA416200F8C75E /* SwitchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchField.swift; sourceTree = "<group>"; };
+		16FEBA8A2CEA41C200F8C75E /* DropdownFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropdownFieldView.swift; sourceTree = "<group>"; };
+		16FEBA8C2CEA41E500F8C75E /* SwitchFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchFieldView.swift; sourceTree = "<group>"; };
+		16FEBA8F2CEA441800F8C75E /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		16FEBA912CEA443D00F8C75E /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		16FEBA932CEA449300F8C75E /* PasswordValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordValidator.swift; sourceTree = "<group>"; };
+		16FEBA952CEA455700F8C75E /* PhoneValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidator.swift; sourceTree = "<group>"; };
+		16FEBA972CEA502000F8C75E /* DateField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateField.swift; sourceTree = "<group>"; };
+		16FEBA992CEA504C00F8C75E /* TextAreaField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaField.swift; sourceTree = "<group>"; };
+		16FEBA9B2CEA507000F8C75E /* DateFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFieldView.swift; sourceTree = "<group>"; };
+		16FEBA9D2CEA50A000F8C75E /* TextAreaFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAreaFieldView.swift; sourceTree = "<group>"; };
+		16FEBAA32CEA619D00F8C75E /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +105,19 @@
 		16FEB9F92CE5551000F8C75E /* SwiftFormKit */ = {
 			isa = PBXGroup;
 			children = (
-				16FEBA1E2CE584A800F8C75E /* views */,
-				16FEBA172CE56C3900F8C75E /* validators */,
+				16FEBA8F2CEA441800F8C75E /* Validator.swift */,
+				16FEBA7B2CEA373300F8C75E /* FormFieldProtocol.swift */,
+				16FEBA7F2CEA379500F8C75E /* TextInputView.swift */,
+				16FEBA812CEA37E700F8C75E /* FormModel.swift */,
+				16FEBA832CEA380D00F8C75E /* FormView.swift */,
+				16FEBA9B2CEA507000F8C75E /* DateFieldView.swift */,
+				16FEBA8A2CEA41C200F8C75E /* DropdownFieldView.swift */,
+				16FEBA8C2CEA41E500F8C75E /* SwitchFieldView.swift */,
+				16FEBA9D2CEA50A000F8C75E /* TextAreaFieldView.swift */,
+				16FEBA852CEA412600F8C75E /* fields */,
+				16FEBA8E2CEA440200F8C75E /* valid */,
 				16FEB9FA2CE5551000F8C75E /* SwiftFormKit.h */,
-				16FEBA0F2CE557B300F8C75E /* FormFieldType.swift */,
-				16FEBA1C2CE578CF00F8C75E /* Form.swift */,
+				16FEBAA32CEA619D00F8C75E /* FormData.swift */,
 			);
 			path = SwiftFormKit;
 			sourceTree = "<group>";
@@ -114,30 +130,26 @@
 			path = SwiftFormKitTests;
 			sourceTree = "<group>";
 		};
-		16FEBA172CE56C3900F8C75E /* validators */ = {
+		16FEBA852CEA412600F8C75E /* fields */ = {
 			isa = PBXGroup;
 			children = (
-				16FEBA152CE56BDE00F8C75E /* PhoneValidator.swift */,
-				16FEBA132CE56B7B00F8C75E /* EmailValidator.swift */,
-				16FEBA112CE565AD00F8C75E /* Validator.swift */,
-				16FEBA182CE56CCB00F8C75E /* PasswordValidator.swift */,
-				16FEBA1A2CE5785700F8C75E /* DropdownValidator.swift */,
+				16FEBA7D2CEA375200F8C75E /* TextInputField.swift */,
+				16FEBA862CEA414700F8C75E /* DropdownField.swift */,
+				16FEBA882CEA416200F8C75E /* SwitchField.swift */,
+				16FEBA972CEA502000F8C75E /* DateField.swift */,
+				16FEBA992CEA504C00F8C75E /* TextAreaField.swift */,
 			);
-			path = validators;
+			path = fields;
 			sourceTree = "<group>";
 		};
-		16FEBA1E2CE584A800F8C75E /* views */ = {
+		16FEBA8E2CEA440200F8C75E /* valid */ = {
 			isa = PBXGroup;
 			children = (
-				16FEBA1F2CE584C400F8C75E /* FieldStyle.swift */,
-				16FEBA212CE8532500F8C75E /* FormFieldCell.swift */,
-				16FEBA232CE856B800F8C75E /* TextFieldView.swift */,
-				16FEBA252CE856C900F8C75E /* DatePickerView.swift */,
-				16FEBA272CE856DC00F8C75E /* DropdownView.swift */,
-				16FEBA292CE856F600F8C75E /* MultiSelectView.swift */,
-				16FEBA2B2CE8584000F8C75E /* FormViewController.swift */,
+				16FEBA912CEA443D00F8C75E /* EmailValidator.swift */,
+				16FEBA932CEA449300F8C75E /* PasswordValidator.swift */,
+				16FEBA952CEA455700F8C75E /* PhoneValidator.swift */,
 			);
-			path = views;
+			path = valid;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,20 +262,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16FEBA202CE584C400F8C75E /* FieldStyle.swift in Sources */,
-				16FEBA122CE565AD00F8C75E /* Validator.swift in Sources */,
-				16FEBA2C2CE8584000F8C75E /* FormViewController.swift in Sources */,
-				16FEBA1B2CE5785700F8C75E /* DropdownValidator.swift in Sources */,
-				16FEBA262CE856C900F8C75E /* DatePickerView.swift in Sources */,
-				16FEBA102CE557B300F8C75E /* FormFieldType.swift in Sources */,
-				16FEBA282CE856DC00F8C75E /* DropdownView.swift in Sources */,
-				16FEBA192CE56CCB00F8C75E /* PasswordValidator.swift in Sources */,
-				16FEBA142CE56B7B00F8C75E /* EmailValidator.swift in Sources */,
-				16FEBA242CE856B800F8C75E /* TextFieldView.swift in Sources */,
-				16FEBA2A2CE856F600F8C75E /* MultiSelectView.swift in Sources */,
-				16FEBA1D2CE578CF00F8C75E /* Form.swift in Sources */,
-				16FEBA162CE56BDE00F8C75E /* PhoneValidator.swift in Sources */,
-				16FEBA222CE8532500F8C75E /* FormFieldCell.swift in Sources */,
+				16FEBA8B2CEA41C200F8C75E /* DropdownFieldView.swift in Sources */,
+				16FEBA9E2CEA50A000F8C75E /* TextAreaFieldView.swift in Sources */,
+				16FEBA942CEA449300F8C75E /* PasswordValidator.swift in Sources */,
+				16FEBA802CEA379500F8C75E /* TextInputView.swift in Sources */,
+				16FEBA892CEA416200F8C75E /* SwitchField.swift in Sources */,
+				16FEBA872CEA414700F8C75E /* DropdownField.swift in Sources */,
+				16FEBA822CEA37E700F8C75E /* FormModel.swift in Sources */,
+				16FEBA922CEA443D00F8C75E /* EmailValidator.swift in Sources */,
+				16FEBA8D2CEA41E500F8C75E /* SwitchFieldView.swift in Sources */,
+				16FEBA962CEA455700F8C75E /* PhoneValidator.swift in Sources */,
+				16FEBA7E2CEA375200F8C75E /* TextInputField.swift in Sources */,
+				16FEBAA42CEA619D00F8C75E /* FormData.swift in Sources */,
+				16FEBA982CEA502000F8C75E /* DateField.swift in Sources */,
+				16FEBA9C2CEA507000F8C75E /* DateFieldView.swift in Sources */,
+				16FEBA9A2CEA504C00F8C75E /* TextAreaField.swift in Sources */,
+				16FEBA902CEA441800F8C75E /* Validator.swift in Sources */,
+				16FEBA7C2CEA373300F8C75E /* FormFieldProtocol.swift in Sources */,
+				16FEBA842CEA380D00F8C75E /* FormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -448,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
