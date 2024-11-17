@@ -103,7 +103,7 @@ public struct CustomValidator: Validator {
     public init() {}
     
     public func validate(value: String) -> Bool {
-        // Your custom validation logic here
+        // Your validation logic 
         return value.count >= 5
     }
 }
